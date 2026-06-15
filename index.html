@@ -1072,22 +1072,13 @@ Read more <i class="fas fa-arrow-right"></i>
       </div>
       <div class="contact-form reveal-right">
         <h3 style="font-family:var(--font-display);font-size:1.2rem;font-weight:700;margin-bottom:1.5rem">Send a Message</h3>
-        <form action="https://formspree.io/f/xlgkzebk" method="POST">
+        
 <form action="https://formspree.io/f/xlgkzebk" method="POST" autocomplete="on">
 
   <input type="hidden" 
   name="Sent Time (IST)" 
   id="istTime">
-
-  <script>
-    const now = new Date()
-    const ist = new Date(now.getTime() + (5.5 * 60 * 60 * 1000))
-    document.getElementById('istTime').value = 
-    ist.toLocaleString('en-IN', {
-      day:'2-digit', month:'short', year:'numeric',
-      hour:'2-digit', minute:'2-digit', hour12:true
-    }) + ' IST'
-  </script>
+  
     <div class="form-row">
       <div class="form-group">
         <label>Your Name</label>
@@ -1140,12 +1131,11 @@ Read more <i class="fas fa-arrow-right"></i>
       <div class="footer-brand">
         <div class="logo">Chaitanya<span style="color:var(--accent-blue)">.</span>Portfolio</div>
         <p>Turning raw data into strategic insights. Open to opportunities across Data Analysis, Business Intelligence, and Analytics Consulting.</p>
-        <div class="footer-socials" style="margin-top:1rem">
-          <a class="f-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a class="f-social" href="https://github.com/ChaitanyaDarekar2002"><i class="fab fa-github"></i></a>
-          <a class="f-social" href="#"><i class="fab fa-twitter"></i></a>
-          <a class="f-social" href="mailto:chaitanyadarekar2002@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
+        <div class="contact-socials">
+  <a class="contact-social-btn" href="https://linkedin.com/in/chaitanyadarekar" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a class="contact-social-btn" href="https://github.com/ChaitanyaDarekar2002" target="_blank"><i class="fab fa-github"></i></a>
+  <a class="contact-social-btn" href="mailto:chaitanyadarekar2002@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
       </div>
       <div class="footer-col">
         <h5>Navigate</h5>
@@ -1366,6 +1356,24 @@ document.querySelector('.form-submit').addEventListener('click',function(){
     this.style.background=''
   },3000)
 })
-</script>
-</body>
+<script>
+  window.addEventListener('load', function(){
+    const istTime = document.getElementById('istTime')
+    if(istTime){
+      const now = new Date()
+      const ist = new Date(now.toLocaleString('en-US', {
+        timeZone: 'Asia/Kolkata'
+      }))
+      istTime.value = ist.toLocaleString('en-IN', {
+        day:'2-digit',
+        month:'short', 
+        year:'numeric',
+        hour:'2-digit',
+        minute:'2-digit',
+        hour12:true,
+        timeZone:'Asia/Kolkata'
+      }) + ' IST'
+    }
+  })
+</script></body>
 </html>
