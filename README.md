@@ -1,7 +1,5 @@
 # 🚀 Chaitanya Darekar — Data Analyst Portfolio
 
-![Portfolio Preview](https://raw.githubusercontent.com/ChaitanyaDarekar2002/All-Project-Dashborad-Image/main/Chaitanya.png)
-
 > **"Turning Data Into Insights & Business Decisions"**
 
 [![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-3b82f6?style=for-the-badge)](https://chaitanyadarekar2002.github.io)
