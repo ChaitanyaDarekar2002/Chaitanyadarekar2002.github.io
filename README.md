@@ -4,7 +4,7 @@
 
 [![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-3b82f6?style=for-the-badge)](https://chaitanyadarekar2002.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-ChaitanyaDarekar2002-181717?style=for-the-badge&logo=github)](https://github.com/ChaitanyaDarekar2002)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chaitanya_Darekar-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chaitanya_Darekar-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/chaitanyadarekar02)
 [![Email](https://img.shields.io/badge/Email-chaitanyadarekar2002@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:chaitanyadarekar2002@gmail.com)
 
 ---
@@ -166,7 +166,7 @@ open index.html
 | Platform | Link |
 |---|---|
 | 🌐 Portfolio | [chaitanyadarekar2002.github.io](https://chaitanyadarekar2002.github.io) |
-| 💼 LinkedIn | [linkedin.com/in/chaitanyadarekar](https://linkedin.com/) |
+| 💼 LinkedIn | [linkedin.com/in/chaitanyadarekar](https://linkedin.com/in/chaitanyadarekar02) |
 | 🐙 GitHub | [github.com/ChaitanyaDarekar2002](https://github.com/ChaitanyaDarekar2002) |
 | 📧 Email | [chaitanyadarekar2002@gmail.com](mailto:chaitanyadarekar2002@gmail.com) |
 | 📍 Location | Baramati, Pune, Maharashtra, India |
